@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="309.0" prefWidth="317.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="latihanmf9.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="175.0" layoutY="123.0" minHeight="16" minWidth="69" />
+      <Label layoutX="31.0" layoutY="40.0" text="Penyewa" />
+      <Label layoutX="29.0" layoutY="181.0" text="Lama Sewa" />
+      <CheckBox fx:id="chkpinjam" layoutX="127.0" layoutY="77.0" mnemonicParsing="false" text="Pinjam" />
+      <CheckBox fx:id="chkdvd" layoutX="127.0" layoutY="105.0" mnemonicParsing="false" text="DVD" />
+      <ComboBox fx:id="chbfilm" layoutX="125.0" layoutY="140.0" prefWidth="150.0" />
+      <Label layoutX="31.0" layoutY="74.0" text="Transaksi" />
+      <Label layoutX="31.0" layoutY="105.0" text="Jenis CD" />
+      <Label layoutX="31.0" layoutY="141.0" text="Film" />
+      <TextField fx:id="txtpenyewa" layoutX="126.0" layoutY="39.0" />
+      <TextField fx:id="txtlama" layoutX="126.0" layoutY="177.0" />
+      <Button fx:id="btnhitung" layoutX="33.0" layoutY="219.0" mnemonicParsing="false" onAction="#hitungklik" text="Hitung" />
+      <Button fx:id="btnhapus" layoutX="134.0" layoutY="219.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="btnkeluar" layoutX="226.0" layoutY="219.0" mnemonicParsing="false" onAction="#btnkeluar" text="Keluar" />
+    </children>
+</AnchorPane>
